@@ -2,6 +2,7 @@
   background: url('https://flurry19.github.io/Foto-met-Skye/1636298035132.jpg');
   background-size: cover; 
   position: relative;
+  height: 100vh;
 }
 
 .hometitle {
