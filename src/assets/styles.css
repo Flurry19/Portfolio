@@ -1,0 +1,39 @@
+.triangleleft {
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-right: 0;
+    border-left: 300px solid #16213E;
+    position: absolute;
+    margin-top:2px;
+    /*top: 100px;*/
+    z-index: 0;
+}
+
+.triangleright {
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-left: 0;
+    border-right: 300px solid #E94560;
+    position: absolute;
+    margin-top:250px;
+    z-index: 0;
+}
+
+body{
+    background: rgb(22,33,62);
+    background: linear-gradient(111deg, rgba(22,33,62,1) 36%, rgba(233,69,96,1) 100%, rgba(22,33,62,1) 100%);
+}
+
+.progress{
+    width: 50%;
+    background-color: grey;
+    position: absolute;
+}
+
+.progressbar{
+    width: 50%;
+    background-color: green;
+    position: relative;
+}
